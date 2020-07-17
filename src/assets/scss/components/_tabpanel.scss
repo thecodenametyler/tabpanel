@@ -1,4 +1,4 @@
-.tabulations {
+.tabpanel {
     width: 100%;
     display: flex;
     margin: 20px 0;
@@ -18,18 +18,18 @@
         }
         &__item {
             padding: 10px;
-            background-color: #FFFBFF;
+            background-color: $accent-5;
             cursor: pointer;
             border: solid $accent-1;
             border-width: 0px 0px 2px 0px;
             &:hover, &:focus, &.focus {
-                background: $accent-1;//#92817A;
+                background: $accent-1;
             }
             &.active {
                 font-weight: 600;
                 color: $white;
                 border-color: $accent-4;
-                background: $accent-4;//#F1DABF;
+                background: $accent-4;
             }
         }
     }

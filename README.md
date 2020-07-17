@@ -25,5 +25,9 @@ npm run test
 npm run lint
 ```
 
+### Complie CSS
+```
+gulp style
+```
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).

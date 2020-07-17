@@ -1,8 +1,8 @@
 <template>
   <div>
-    <section class="section__wrapper tabulations__wrapper">
+    <section class="section__wrapper tabpanel__wrapper">
       <div class="section__container container">
-        <div class="row tabulations__intro middle-md">
+        <div class="row tabpanel__intro middle-md">
           <div class="col-xs-12 col-md-6">
               <h1>{{ msg }}</h1>
           </div>
@@ -19,17 +19,17 @@
         <div class="row">
           <div class="col-xs-12">
             <button :tabindex="0" type="button" class="btn btn--fill">Button 1</button>
-            <div class="tabulations">
-              <div class="tabulations__header">
-                <ol class="tabulations__header__list">
-                  <li v-for="i in numOfTab" :key="i" :tabindex="i === showTab ? 0 : ''" v-bind:item="i" @click="switchTab(i)" class="tabulations__header__item" :class="{ 'active' : i === showTab,  'focus' : i === trackTab}">
+            <div class="tabpanel">
+              <div class="tabpanel__header">
+                <ol class="tabpanel__header__list">
+                  <li v-for="i in numOfTab" :key="i" :tabindex="i === showTab ? 0 : ''" v-bind:item="i" @click="switchTab(i)" class="tabpanel__header__item" :class="{ 'active' : i === showTab,  'focus' : i === trackTab}">
                     TAB {{ i }}
                   </li>
                 </ol>
               </div>
-              <div class="tabulations__content__wrapper">
-                <div v-for="i in numOfTab" :key="i" v-bind:item="i" class="tabulations__content__item" :class="{ 'active' : i === showTab}">
-                  <div class="tabulations__content">
+              <div class="tabpanel__content__wrapper">
+                <div v-for="i in numOfTab" :key="i" v-bind:item="i" class="tabpanel__content__item" :class="{ 'active' : i === showTab}">
+                  <div class="tabpanel__content">
                     <p><strong>Content {{ i }}</strong></p>
                   </div>
                 </div>

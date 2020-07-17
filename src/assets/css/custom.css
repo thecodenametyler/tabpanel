@@ -2251,43 +2251,43 @@ h3, .h3 {
   padding-bottom: 70px;
   padding-top: 70px; }
 
-.tabulations {
+.tabpanel {
   width: 100%;
   display: flex;
   margin: 20px 0; }
-  .tabulations__intro {
+  .tabpanel__intro {
     margin-bottom: 20px; }
-    .tabulations__intro h1 {
+    .tabpanel__intro h1 {
       color: #00171F; }
-  .tabulations__header {
+  .tabpanel__header {
     width: 25%; }
-    .tabulations__header ol {
+    .tabpanel__header ol {
       padding: 0;
       margin: 0;
       list-style: none; }
-    .tabulations__header__item {
+    .tabpanel__header__item {
       padding: 10px;
       background-color: #FFFBFF;
       cursor: pointer;
       border: solid #00A7E1;
       border-width: 0px 0px 2px 0px; }
-      .tabulations__header__item:hover, .tabulations__header__item:focus, .tabulations__header__item.focus {
+      .tabpanel__header__item:hover, .tabpanel__header__item:focus, .tabpanel__header__item.focus {
         background: #00A7E1; }
-      .tabulations__header__item.active {
+      .tabpanel__header__item.active {
         font-weight: 600;
         color: #FFF;
         border-color: #007EA7;
         background: #007EA7; }
-  .tabulations__content {
+  .tabpanel__content {
     color: #FFF; }
-    .tabulations__content p {
+    .tabpanel__content p {
       color: #FFF; }
-    .tabulations__content__wrapper {
+    .tabpanel__content__wrapper {
       width: 75%; }
-    .tabulations__content__item {
+    .tabpanel__content__item {
       background: #007EA7;
       height: 100%;
       text-align: center;
       display: none; }
-      .tabulations__content__item.active {
+      .tabpanel__content__item.active {
         display: block; }
