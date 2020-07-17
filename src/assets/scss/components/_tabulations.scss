@@ -1,0 +1,54 @@
+.tabulations {
+    width: 100%;
+    display: flex;
+    margin: 20px 0;
+
+    &__intro {
+        margin-bottom: 20px;
+        h1 {
+            color: $accent-2;
+        }
+    }
+    &__header {
+        width: 25%;
+        ol {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+        &__item {
+            padding: 10px;
+            background-color: #FFFBFF;
+            cursor: pointer;
+            border: solid $accent-1;
+            border-width: 0px 0px 2px 0px;
+            &:hover, &:focus, &.focus {
+                background: $accent-1;//#92817A;
+            }
+            &.active {
+                font-weight: 600;
+                color: $white;
+                border-color: $accent-4;
+                background: $accent-4;//#F1DABF;
+            }
+        }
+    }
+    &__content {
+        color: $white;
+        p {
+            color: $white;
+        }
+        &__wrapper {
+            width: 75%;
+        }
+        &__item {
+            background: $accent-4;
+            height: 100%;
+            text-align: center;
+            display: none;
+            &.active {
+                display: block;
+            }
+        }
+    }
+}

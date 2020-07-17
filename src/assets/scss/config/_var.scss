@@ -1,0 +1,29 @@
+$basefont: 16px;
+
+//Path
+$image: '../img/';
+$fonts: '../fonts/';
+
+//breakpoints
+/*
+$breakpoint-small: 670px;
+$breakpoint-med-small: 768px;
+$breakpoint-med: 1175px;
+*/
+$breakpoint-extra-small: 576px;
+$breakpoint-small: 767px;
+$breakpoint-med-small: 991px;
+$breakpoint-med: 1023px;
+
+$white: #FFF;
+$black: #0f0f0f;
+$text: #0f0f0f;
+$light-grey: #f7f7f7;
+
+$accent-1: #00A7E1;
+$accent-2: #00171F;
+$accent-3: #003459;
+$accent-4: #007EA7;
+
+:root {
+}
