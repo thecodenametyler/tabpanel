@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
     <TabPanel msg="TabPanel"/>
   </div>
 </template>
@@ -17,7 +16,6 @@ export default {
 </script>
 
 <style>
-  /* @import './assets/css/reset.css'; */
   @import './assets/css/normalize.css';
   @import './assets/css/custom.css';
 </style>

@@ -86,7 +86,6 @@ export default {
           this.trackTab++;
           break;
         default:
-          // code block
           this.keypressed = key
       }
     },
@@ -103,8 +102,3 @@ export default {
   }
 }
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-  /* @import './../assets/css/main.css'; */
-</style>
