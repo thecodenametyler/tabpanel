@@ -1,5 +1,7 @@
 # TabPanel
 
+site: https://tabpanel.netlify.app/
+
 ## Project setup
 ```
 npm install
